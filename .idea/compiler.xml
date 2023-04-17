@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="markenassets.all" />
+        <module name="markenassets.ui.apps" />
+        <module name="markenassets.ui.apps.structure" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aem-datevegproduction-project.ui.content" target="1.8" />
+      <module name="markenassets.core" target="1.8" />
+      <module name="markenassets.ui.acl" target="1.8" />
+      <module name="markenassets.ui.config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+     <!--filter root="/apps/asset-selectors"/ -->
+    <filter root="/apps/dam/gui/content/assets"/>
+
+    <!-- Index definitions -->
+    <filter root="/oak:index/markenassetsDamExpiry-custom-1"></filter>
+    <filter root="/oak:index/damAssetLucene-8-custom-1"></filter>
+
+</workspaceFilter>

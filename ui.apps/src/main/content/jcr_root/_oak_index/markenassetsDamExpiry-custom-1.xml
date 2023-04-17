@@ -1,0 +1,25 @@
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:dam="http://www.day.com/dam/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="oak:QueryIndexDefinition"
+          async="[async,nrt]"
+          compatVersion="{Long}2"
+          evaluatePathRestrictions="{Boolean}true"
+          includedPaths="[/content/dam/markenassets]"
+          queryPaths="[/content/dam/markenassets]"
+          reindex="{Boolean}false"
+          tags="[assetsListing]"
+          type="lucene">
+    <indexRules jcr:primaryType="nt:unstructured">
+        <dam:Asset jcr:primaryType="nt:unstructured">
+            <properties jcr:primaryType="nt:unstructured">
+                <prismExpirationDate
+                        jcr:primaryType="nt:unstructured"
+                        name="jcr:content/metadata/prismExpirationDate"
+                        ordered="{Boolean}true"
+                        propertyIndex="{Boolean}true"
+                        type="Date"/>
+            </properties>
+        </dam:Asset>
+    </indexRules>
+</jcr:root>
